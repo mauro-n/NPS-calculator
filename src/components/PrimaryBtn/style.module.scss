@@ -1,0 +1,16 @@
+@import '../../index.scss';
+
+.primaryBtn {
+    background-color: $primary-3;
+    color: white;
+    font-weight: 700;
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 2px;
+    transition: background-color 200ms ease;
+    padding: 0.4rem 1rem;
+    line-height: 110%;
+    &:hover {
+        background-color: $primary-2;
+    }
+}

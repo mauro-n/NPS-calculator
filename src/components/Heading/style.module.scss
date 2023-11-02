@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+.heading {
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+}
+
+.heading1{ font-size: $heading1}
+.heading2{ font-size: $heading2}
+.heading3{ font-size: $heading3}
+.heading4{ font-size: $heading4}
+.heading5{ font-size: $heading5}
+.heading6{ font-size: $heading6}
+.strength1{ font-weight: $strong1}
+.strength2{ font-weight: $strong2}
+.strength3{ font-weight: $strong3}
+
+.center {
+    text-align: center;
+}
+
+@media(max-width: 767px) {
+    .xlg {
+        font-size: 1.8rem;
+    }
+}

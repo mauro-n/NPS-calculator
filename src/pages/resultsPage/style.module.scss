@@ -1,0 +1,20 @@
+@use '../../index.scss';
+
+.page-content {
+    position: relative;
+}
+
+.floating-goback {
+    position: absolute;
+    top: 2rem;
+    right: 5rem;
+}
+
+@media (max-width: 576px) {
+    .floating-goback {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-bottom: 2rem;
+    }
+}

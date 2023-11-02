@@ -1,0 +1,21 @@
+@import '../../index.scss';
+
+.navbar {
+    background-color: $primary-3;
+}
+
+.navlink {
+    color: white;
+    font-weight: 700;
+}
+.navlink--dropdown {
+    & > a {
+        color: white !important;
+        font-weight: 700;
+    }
+}
+
+.nav-flag {
+    width: 70px;
+    height: auto;
+}

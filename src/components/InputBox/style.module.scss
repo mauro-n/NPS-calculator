@@ -1,0 +1,13 @@
+.inputBox {
+    width: 500px;
+    height: 260px;
+    padding: 2rem;
+    resize: none;
+}
+
+@media (max-width: 576px) {
+    .inputBox {
+        width: 280px;
+    }
+}
+

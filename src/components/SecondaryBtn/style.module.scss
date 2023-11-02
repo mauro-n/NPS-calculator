@@ -1,0 +1,13 @@
+@import '../../index.scss';
+
+.secondaryBtn {
+    color: white;
+    background-color: $gray-3;
+    border: none;
+    padding: 0.4rem 1rem;
+    line-height: 110%;
+    transition: background-color 200ms ease;
+    &:hover {
+        background-color: $gray-1;
+    }
+}
