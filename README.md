@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Calculadora de Net Promoter Score (NPS)
+---
+- Deploy em: https://nps.ferramenta.cc/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## O que é NPS?
 
-Currently, two official plugins are available:
+O Net Promoter Score (NPS) é uma métrica de lealdade do cliente criada por Fred Heichheld em 2003 através de uma publicação de um artigo chamado The One Number You Need to Grow na revista da Universidade Harvard, com o objetivo de medir o grau de lealdade dos clientes das empresas de qualquer segmento, trazendo reflexos da experiência e satisfação dos clientes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screeshots
 
-## Expanding the ESLint configuration
+![alt text](https://github.com/mauro-n/NPS-calculator/blob/main/screenshots/Screenshot_1.jpg?raw=true)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![alt text](https://github.com/mauro-n/NPS-calculator/blob/main/screenshots/Screenshot_2.jpg?raw=true)
 
-- Configure the top-level `parserOptions` property like this:
+<p align="center">
+  <img src="https://github.com/mauro-n/NPS-calculator/blob/main/screenshots/Screenshot_4.jpg?raw=true" />
+</p>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![alt text](https://github.com/mauro-n/NPS-calculator/blob/main/screenshots/Screenshot_3.jpg?raw=true)
+
+## Made with:
+- React;
+- Bootstrap;
+- i18next;
