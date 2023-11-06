@@ -44,7 +44,7 @@ export const RadialChart = ({
                 }
             }, {
                 breakpoint: 720, options: {
-                    chart: { width: 460, height: 460 }
+                    chart: { width: 420, height: 420 }
                 }
             }
         ],
@@ -67,8 +67,8 @@ export const RadialChart = ({
         <Chart
             options={options}
             series={series}
-            height={500}
-            width={500}
+            height={420}
+            width={420}
             type="radialBar"
         />
     )

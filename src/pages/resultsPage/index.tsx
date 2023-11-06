@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 /* Hooks */
 import { Navigate, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
+import { Zones } from '../../components/Zones';
 
 export const ResultsPage = () => {
     const { t } = useTranslation();
@@ -80,13 +81,14 @@ export const ResultsPage = () => {
                     />
                     <BarChart
                         id='barchart1'
-                        colors={['#FF6161', '#3788F3', '#3CE939']}
+                        colors={['#FF6161', '#3788F3', '#4BC268']}
                         data={data}
                     />
                     <div className="mt-5 mb-4 d-flex flex-column w-75 align-items-center gap-4">
                         <Heading>
                             {t('results-heading2', {nps})}
                         </Heading>
+                        <Zones/>
                         <p className="align-self-start">
                             {resultText}
                         </p>

@@ -1,0 +1,67 @@
+$b-top: 30px;
+$b-sides: 1px;
+$critical-color: #FF6161;
+$improve-color: #F6B900;
+$quality-color: #4BC268;
+$excelency-color: #35AB4B;
+$charm-color: #3788F3;
+
+.zone {
+    padding: 1rem 0.5rem 0 1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 100%;
+}
+
+.legend {
+    display: block;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    color: black;
+}
+
+.zone-critical {
+    border-top: $b-top solid $critical-color;
+    border-left: $b-sides solid $critical-color;
+    border-right: $b-sides solid $critical-color;
+    color: $critical-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 160px;
+    flex-grow: 1;
+}
+
+.zone-improvement {
+    border-top: $b-top solid $improve-color;
+    border-left: $b-sides solid $improve-color;
+    border-right: $b-sides solid $improve-color;
+    color: $improve-color;
+}
+
+.zone-quality {
+    border-top: $b-top solid $quality-color;
+    border-left: $b-sides solid $quality-color;
+    border-right: $b-sides solid $quality-color;
+    color: $quality-color;
+}
+
+.zone-excelency {
+    border-top: $b-top solid $excelency-color;
+    border-left: $b-sides solid $excelency-color;
+    border-right: $b-sides solid $excelency-color;
+    color: $excelency-color;
+}
+
+.zone-charm {
+    border-top: $b-top solid $charm-color;
+    border-left: $b-sides solid $charm-color;
+    border-right: $b-sides solid $charm-color;
+    color: $charm-color;
+}
+
+@media(min-width: 768px) {
+    .zone-critical {
+        min-width: 250px;
+    }
+}
