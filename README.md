@@ -21,3 +21,6 @@ O Net Promoter Score (NPS) é uma métrica de lealdade do cliente criada por Fre
 
 ## Made with:
 - React;
+
+## Motivação
+Projeto feito para minha colega analista de dados do Juventude Digital - que perdia muito tempo calculando essa métrica :)
